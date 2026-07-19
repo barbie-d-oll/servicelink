@@ -25,7 +25,7 @@ export default function Navbar() {
           href="/"
           className="text-3xl font-extrabold text-green-600"
         >
-          Service<span className="text-slate-800">Link</span>
+          Service<span className="text-grenn-600">Link</span>
         </Link>
          {/* Desktop */}
 

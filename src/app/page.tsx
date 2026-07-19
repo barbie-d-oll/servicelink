@@ -1,14 +1,11 @@
-import Navbar from "@/components/landing/Navbar";
-import Hero from "@/components/landing/Hero";
-import TrustedCompanies from "@/components/landing/TrustedCompanies";
-import About from "@/components/landing/About";
-import Features from "@/components/landing/Features";
-import HowItWorks from "@/components/landing/HowItWorks";
-import FeaturedJobs from "@/components/landing/FeaturedJobs";
-import Pricing from "@/components/landing/Pricing";
-import FAQ from "@/components/landing/FAQ";
-import Contact from "@/components/landing/Contact";
-import Footer from "@/components/landing/Footer";
+import Navbar from "../components/landing/Navbar";
+import Hero from "../components/landing/Hero";
+import TrustedCompanies from "../components/landing/TrustedCompanies";
+import About from "../components/landing/About";
+import Features from "../components/landing/Features";
+import HowItWorks from "../components/landing/HowItWorks";
+import FeaturedJobs from "../components/landing/FeaturedJobs";
+import WhyCompanies from "../components/landing/WhyCompanies";
 
 export default function Home() {
   return (
@@ -20,10 +17,7 @@ export default function Home() {
       <Features />
       <HowItWorks />
       <FeaturedJobs />
-      <Pricing />
-      <FAQ />
-      <Contact />
-      <Footer />
+      <WhyCompanies />
     </>
   );
 }
